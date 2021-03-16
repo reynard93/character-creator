@@ -5,7 +5,7 @@ body,
 }
 
 body {
-  background-color: hsl(180deg, 25%, 92%);
+  background-image: linear-gradient(hsl(195deg, 20%, 86%) 60%, hsl(180deg, 25%, 92%));
   margin: 0;
 }
 

@@ -24,3 +24,22 @@
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
 }
+
+@media (max-width: 600px) {
+  .controlPane {
+    min-width: 350px;
+    overflow: scroll;
+    padding: 14px;
+    /* Optical centering */
+    padding-top: 18px;
+    background-color: white;
+    border-radius: 8px;
+    /*
+      HACK: Margin on an outer bound like this is
+      a little gross, but we haven't seen the tools
+      to deal with it yet!
+    */
+    margin-bottom: 32px;
+    margin-right: 10px;
+  }
+}
