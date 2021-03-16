@@ -1,23 +1,17 @@
 .character {
   /* Fill the available container height */
-  height: 500px;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 50%;
-  margin: auto;
+  height: 100%;
 }
 
-@media (max-width: 600px) {
-  .character {
-    /* Fill the available container height */
-    height: 500px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-    z-index: -1;
-  }
-}
+/*@media (max-width: 600px) {*/
+/*  .character {*/
+/*    !* Fill the available container height *!*/
+/*    height: 500px;*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    margin: auto;*/
+/*    z-index: -1;*/
+/*  }*/
+/*}*/
